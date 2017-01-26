@@ -1,0 +1,301 @@
+body {
+    width: 960px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    float: left;
+    text-align: center
+}
+
+#links {
+    background-color: white;
+    float: right;
+    text-align: center;
+    position: relative;
+    right: 95px;
+    top: 40px;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.img1 {
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+}
+
+#main-container {
+    width: 960px;
+    float: left;
+    background-image: url("../images/seigaiha.png");
+    border-top: solid;
+    border-color: #dddddd;
+}
+
+#image-container {
+    float: left;
+    width: 340px;
+    background-color: white;
+    margin: 20px 0px 20px 50px;
+    padding: 15px;
+    border: solid;
+    border-color: #dddddd; 
+    
+}
+
+figure {
+    width: 150px;
+    margin: 5px;
+    display: inline-block;
+}
+
+figcaption {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#portfolio {
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    color:  #4aaaa5;
+}
+
+#connectme {
+    color: #4aaaa5;
+    float: right;
+    margin: 20px 75px 20px 20px;
+    background: white;
+    border: solid;
+    border-color: #dddddd;
+    text-align: center;
+}
+
+.connect-image {
+	width: 50px;
+	height: 50px;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background-color: #666666;
+    border-top: solid;
+    border-width: 8px;
+    border-color: #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+    width: 768px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    float: left;
+    text-align: center
+}
+
+#links {
+    background-color: white;
+    float: right;
+    text-align: center;
+    position: relative;
+    right: 195px;
+    top: 40px;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.img1 {
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+}
+
+#main-container {
+    width: 768px;
+    background-image: url("../images/seigaiha.png");
+    border-top: solid;
+    border-color: #dddddd;
+}
+
+#image-container {
+    position: static;
+    width: 340px;
+    margin: 20px auto 20px 200px; 
+    
+}
+
+figure {
+    width: 150px;
+    margin: 5px;
+    display: inline-block;
+}
+
+figcaption {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#portfolio {
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    color:  #4aaaa5;
+}
+
+#connectme {
+    position: static;
+    color: #4aaaa5;
+    width: 50%;
+    margin: 20px 175px 20px 100px;
+    background: white;
+    border: solid;
+    border-color: #dddddd;
+    text-align: center;
+    clear: both;
+}
+
+.connect-image {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    clear: both;
+    width: 768px;
+    padding: 20px;
+    text-align: center;
+    background-color: #666666;
+    border-top: solid;
+    border-width: 8px;
+    border-color: #4aaaa5;
+}
+    
+}
+
+@media screen and (max-width: 640px) {
+    body {
+    width: 640px;
+}
+
+#name {
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left:0px;
+    padding: 10px;
+    text-align: center
+}
+
+#links {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: static;
+    padding: 10px 0px;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.img1 {
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+}
+
+#main-container {
+    width: 768px;
+    background-image: url("../images/seigaiha.png");
+    border-top: solid;
+    border-color: #dddddd;
+}
+
+#image-container {
+    position: static;
+    width: 340px;
+    margin: 20px auto 20px 200px; 
+    
+}
+
+figure {
+    width: 150px;
+    margin: 5px;
+    display: inline-block;
+}
+
+figcaption {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#portfolio {
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    color:  #4aaaa5;
+}
+
+#connectme {
+    position: static;
+    color: #4aaaa5;
+    width: 50%;
+    margin: 20px 175px 20px 100px;
+    background: white;
+    border: solid;
+    border-color: #dddddd;
+    text-align: center;
+    clear: both;
+}
+
+.connect-image {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    clear: both;
+    width: 640px;
+    padding: 20px;
+    text-align: center;
+    background-color: #666666;
+    border-top: solid;
+    border-width: 8px;
+    border-color: #4aaaa5;
+}
+}
